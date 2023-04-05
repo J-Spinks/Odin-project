@@ -7,9 +7,39 @@
 <body>
   <h1 style="text-align: center;">JavaScript Fun</h1>
   <script>
-    // Your JavaScript goes here!
-    console.log("Hello, World!");
-    console.log(5 + 5);
+
+  const add7 = (num) => {
+    return num + 7;
+  };
+  console.log(add7(7));
+
+  const multiply = (num1, num2) => {
+    return num1 * num2;
+  };
+
+  console.log(multiply(7, 2));
+
+  // const myString = "hello";
+  // myString.toUpperCase();
+  // console.log(myString.toUpperCase());
+
+  const capitalize = (string) => {
+     const uppercase = string.charAt(0).
+     toUpperCase() + string.slice(1);
+     return uppercase
+
+  };
+
+  console.log(capitalize("this is a capitalised string."));
+
+  const lastLetter = (string) => {
+    const last = string.slice(-1);
+    // return last
+    return last
+  };
+
+  console.log(lastLetter("abcd"));
+
   </script>
 </body>
 </html>
