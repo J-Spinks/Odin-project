@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+
+.etch-a-Sketch {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  border: 1px solid black;
+}
